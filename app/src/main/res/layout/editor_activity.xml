@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/pic"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/sad_smile"
+                android:layout_gravity="center"/>
+
+        <LinearLayout
+            style="@style/detail_linearLayout">
+
+            <TextView
+                style="@style/detail_text"
+                android:text="@string/detail_name" />
+
+            <EditText
+                android:id="@+id/edit_name_product"
+                style="@style/detail_edit"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/detail_linearLayout">
+
+            <TextView
+                style="@style/detail_text"
+                android:text="Quantity" />
+
+            <Button
+                android:id="@+id/detail_quantity_add"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+"
+                />
+
+            <TextView
+                android:id="@+id/edit_quantity_product"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_horizontal"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:inputType="number"
+                android:textAlignment="center"
+                tools:text="100" />
+
+            <Button
+                android:id="@+id/detail_quantity_minus"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="-"
+                />
+            <EditText
+                android:id="@+id/edit_stock_change"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:hint="Units" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/detail_linearLayout">
+
+            <TextView
+                style="@style/detail_text"
+                android:text="@string/detail_price" />
+
+            <EditText
+                android:id="@+id/edit_price_product"
+                style="@style/detail_edit"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/supplier_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_horizontal"
+                android:text="@string/detail_order"
+                />
+
+            <EditText
+                android:id="@+id/supplier_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:inputType="phone" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/database_delete"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:text = "Delete All Entries"
+            />
+    </LinearLayout>
+</ScrollView>

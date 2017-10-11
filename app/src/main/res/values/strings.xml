@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Inventory</string>
+
+    <string name="detail_name">Name :</string>
+
+    <string name="detail_quantity">Quantity :</string>
+
+    <string name="detail_price">Price : $</string>
+
+    <string name="detail_order">Order</string>
+
+    <string name="editor_activity_add_new_product">Add New Product</string>
+
+    <string name="editor_activity_edit_new_product">Edit New Product</string>
+
+    <string name="edit_name_product">Edit Product Name</string>
+
+    <string name="edit_price">Edit Product Price</string>
+
+    <string name="editor_insert_product_failed">Insert Product Failed</string>
+
+    <string name="editor_insert_product_successful">Insert Product Successful</string>
+
+    <string name="editor_update_product_failed">Update Product Failed</string>
+
+    <string name="action_save">Save</string>
+
+    <string name="action_delete">Delete</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <string name="action_cancel">Cancel</string>
+
+    <string name="editor_delete_product_successful">Delete Product Successful</string>
+
+    <string name="editor_delete_product_failed">Delete Product Failed</string>
+
+    <string name="unknown_price">Unknown price</string>
+
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <string name="action_delete_all_entries">Delete All Entries</string>
+
+    <string name="action_yes">YES</string>
+
+    <string name="action_no">NO</string>
+
+    <string name="action_select_picture">Select Picture</string>
+
+</resources>
